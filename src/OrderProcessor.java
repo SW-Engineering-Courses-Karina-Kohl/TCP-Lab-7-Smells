@@ -1,4 +1,5 @@
 //Smelly code 
+
 public class OrderProcessor {
 
     public void processOrder(String customerName, String productName, int quantity, double price, String shippingAddress) {
@@ -17,5 +18,10 @@ public class OrderProcessor {
         }
 
         System.out.println("Shipping cost included. Final total: " + total);
+    }
+
+    public static void main(String[] args) {
+        OrderProcessor orderProcessor = new OrderProcessor();
+        orderProcessor.processOrder("John Doe", "Laptop", 2, 1500.00, "123 Main St, Brazil");
     }
 }
