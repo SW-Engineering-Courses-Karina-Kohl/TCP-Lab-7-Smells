@@ -1,5 +1,0 @@
-Long Method:	O método processOrder faz muita coisa.
-Primitive Obsession:	Usa muitos tipos primitivos em vez de objetos ricos.
-Feature Envy:	processOrder sabe demais sobre o endereço.
-Data Clumps:	Vários parâmetros relacionados (nome, produto, preço etc).
-Duplicated Code: Prints repetitivos.
